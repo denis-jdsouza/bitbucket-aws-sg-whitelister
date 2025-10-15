@@ -15,7 +15,7 @@ pipeline {
     }
 
     environment {
-        SLACK_BOT_TOKEN = credentials('<BITBUCKET_SLACK_TOKEN_ID>') // update value
+        SLACK_BOT_TOKEN = credentials('<SLACK_TOKEN>') // update value
         AWS_SG_ID = "<AWS_security_group_ID>" // update value
         AWS_REGION = "<AWS_region>"           // update value
         
