@@ -22,7 +22,7 @@ JOB_NAME = os.getenv("JOB_NAME")
 
 # Slack config
 SLACK_BOT_TOKEN = os.getenv("SLACK_BOT_TOKEN")
-SLACK_CHANNEL = "#devops-jenkins"
+SLACK_CHANNEL = "#alerts"
 
 
 def fetch_ip_ranges():
