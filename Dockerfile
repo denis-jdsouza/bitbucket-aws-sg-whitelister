@@ -1,5 +1,5 @@
-FROM python:3.10.3-alpine3.14 as base
-FROM base as builder
+FROM python:3.10.3-alpine3.14 AS base
+FROM base AS builder
 COPY requirements.txt /requirements.txt
 RUN pip install --user --no-warn-script-location -r requirements.txt
 
