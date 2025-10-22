@@ -100,3 +100,6 @@ python bitbucket-aws-sg-whitelister.py
 * **Target Port:** The script manages Ingress rules for TCP Port 443 (HTTPS). If you need to manage other ports, you must modify the variable "AWS_SG_RULE_PORT".
 
 * **Rule Descriptions:** All rules added by this script are tagged with the description: "Bitbucket CIDR rule added via automation".
+
+## ⚖️ License
+This project is licensed under the [MIT License](LICENSE) - see the file for details.
